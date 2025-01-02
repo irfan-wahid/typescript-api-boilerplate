@@ -1,24 +1,35 @@
 import { Request, Response } from 'express';
 import Author from "../models/author";
+import { parse, data } from '../utilities/pagination';
 
 export const get = async(req: Request, res: Response): Promise<Response> => {
-    try{
-        const list = await Author.findAll();
+  const page = parseInt(req.query.page as string) || 0;
+  const size = parseInt(req.query.size as string) || 10;
+  const { limit, offset } = parse(page, size)
 
-        return res.status(200).json({
-            data: list,
-            msg: "berhasil mendapatkan data",
-            error: false,
-          }); 
-    }catch(err){
-        console.log(err);
+  let { order_by, order_type } = req.query as { order_by?: string; order_type?: string };
 
-        return res.status(500).json({
-            data: null,
-            msg: "Gagal mengambil data",
-            error: true,
-          }); 
-    }
+  try{
+    const list = await Author.findAndCountAll({
+      ...req.query.pagination == 'true' && {
+        offset: offset,
+        limit: limit
+    },
+    order: [[ order_by || 'id', order_type || 'DESC' ]],
+    });
+    return res.status(200).json({
+        data: data(list, page, size),
+        msg: "berhasil mendapatkan data",
+        error: false,
+    }); 
+  }catch(err){
+    console.log(err);
+    return res.status(500).json({
+        data: null,
+        msg: "Gagal mengambil data",
+        error: true,
+    }); 
+  }
 }
 
 export const post = async(req: Request, res: Response): Promise<Response> => {
