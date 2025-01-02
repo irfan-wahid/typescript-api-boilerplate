@@ -1,0 +1,93 @@
+{"level":"debug","message":"Logging initialized at debug level"}
+{"level":"error","message":"Failed to sync DB Access denied for user 'root'@'172.17.0.1' (using password: YES)","name":"SequelizeAccessDeniedError","original":{"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlMessage":"Access denied for user 'root'@'172.17.0.1' (using password: YES)","sqlState":"28000"},"parent":{"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlMessage":"Access denied for user 'root'@'172.17.0.1' (using password: YES)","sqlState":"28000"},"stack":"SequelizeAccessDeniedError: Access denied for user 'root'@'172.17.0.1' (using password: YES)\n    at ConnectionManager.connect (C:\\Users\\MUHAMMAD IRFAN N\\OneDrive\\Documents\\Personal Project\\TypeScript\\boilerplate\\node_modules\\sequelize\\src\\dialects\\mysql\\connection-manager.js:118:17)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async ConnectionManager._connect (C:\\Users\\MUHAMMAD IRFAN N\\OneDrive\\Documents\\Personal Project\\TypeScript\\boilerplate\\node_modules\\sequelize\\src\\dialects\\abstract\\connection-manager.js:332:24)\n    at async C:\\Users\\MUHAMMAD IRFAN N\\OneDrive\\Documents\\Personal Project\\TypeScript\\boilerplate\\node_modules\\sequelize\\src\\dialects\\abstract\\connection-manager.js:250:32\n    at async ConnectionManager.getConnection (C:\\Users\\MUHAMMAD IRFAN N\\OneDrive\\Documents\\Personal Project\\TypeScript\\boilerplate\\node_modules\\sequelize\\src\\dialects\\abstract\\connection-manager.js:280:7)\n    at async C:\\Users\\MUHAMMAD IRFAN N\\OneDrive\\Documents\\Personal Project\\TypeScript\\boilerplate\\node_modules\\sequelize\\src\\sequelize.js:638:26\n    at async MySQLQueryInterface.tableExists (C:\\Users\\MUHAMMAD IRFAN N\\OneDrive\\Documents\\Personal Project\\TypeScript\\boilerplate\\node_modules\\sequelize\\src\\dialects\\abstract\\query-interface.js:242:17)\n    at async Function.sync (C:\\Users\\MUHAMMAD IRFAN N\\OneDrive\\Documents\\Personal Project\\TypeScript\\boilerplate\\node_modules\\sequelize\\src\\model.js:1349:21)\n    at async Sequelize.sync (C:\\Users\\MUHAMMAD IRFAN N\\OneDrive\\Documents\\Personal Project\\TypeScript\\boilerplate\\node_modules\\sequelize\\src\\sequelize.js:825:9)"}
+{"level":"debug","message":"Logging initialized at debug level"}
+{"level":"debug","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'authors' AND TABLE_SCHEMA = 'belajar_typescript'"}
+{"level":"debug","message":"Executing (default): SHOW INDEX FROM `authors`"}
+{"level":"info","message":"DB sync with status: true"}
+{"level":"debug","message":"Logging initialized at debug level"}
+{"level":"debug","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'authors' AND TABLE_SCHEMA = 'belajar_typescript'"}
+{"level":"debug","message":"Executing (default): SHOW INDEX FROM `authors`"}
+{"level":"info","message":"DB sync with status: true"}
+{"level":"debug","message":"Logging initialized at debug level"}
+{"level":"debug","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'authors' AND TABLE_SCHEMA = 'belajar_typescript'"}
+{"level":"debug","message":"Executing (default): SHOW INDEX FROM `authors`"}
+{"level":"info","message":"DB sync with status: true"}
+{"level":"debug","message":"Logging initialized at debug level"}
+{"level":"debug","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'authors' AND TABLE_SCHEMA = 'belajar_typescript'"}
+{"level":"debug","message":"Executing (default): SHOW INDEX FROM `authors`"}
+{"level":"info","message":"DB sync with status: true"}
+{"level":"debug","message":"Logging initialized at debug level"}
+{"level":"debug","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'authors' AND TABLE_SCHEMA = 'belajar_typescript'"}
+{"level":"debug","message":"Executing (default): SHOW INDEX FROM `authors`"}
+{"level":"info","message":"DB sync with status: true"}
+{"level":"debug","message":"Logging initialized at debug level"}
+{"level":"debug","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'authors' AND TABLE_SCHEMA = 'belajar_typescript'"}
+{"level":"debug","message":"Executing (default): SHOW INDEX FROM `authors`"}
+{"level":"info","message":"DB sync with status: true"}
+{"level":"debug","message":"Executing (default): SELECT `id`, `name`, `created_at`, `last_updated` FROM `authors` AS `Author`;"}
+{"level":"debug","message":"Logging initialized at debug level"}
+{"level":"debug","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'authors' AND TABLE_SCHEMA = 'belajar_typescript'"}
+{"level":"debug","message":"Executing (default): SHOW INDEX FROM `authors`"}
+{"level":"info","message":"DB sync with status: true"}
+{"level":"debug","message":"Executing (default): SELECT `id`, `name`, `createdAt`, `updatedAt` FROM `authors` AS `Author`;"}
+{"level":"debug","message":"Logging initialized at debug level"}
+{"level":"debug","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'authors' AND TABLE_SCHEMA = 'belajar_typescript'"}
+{"level":"debug","message":"Executing (default): SHOW INDEX FROM `authors`"}
+{"level":"info","message":"DB sync with status: true"}
+{"level":"debug","message":"Executing (default): SELECT `id`, `name` FROM `authors` AS `Author`;"}
+{"level":"debug","message":"Executing (default): SELECT `id`, `name` FROM `authors` AS `Author`;"}
+{"level":"debug","message":"Logging initialized at debug level"}
+{"level":"debug","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'authors' AND TABLE_SCHEMA = 'belajar_typescript'"}
+{"level":"debug","message":"Executing (default): SHOW INDEX FROM `authors`"}
+{"level":"info","message":"DB sync with status: true"}
+{"level":"debug","message":"Executing (default): SELECT `id`, `name` FROM `authors` AS `Author`;"}
+{"level":"debug","message":"Executing (default): SELECT `id`, `name` FROM `authors` AS `Author`;"}
+{"level":"debug","message":"Logging initialized at debug level"}
+{"level":"debug","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'authors' AND TABLE_SCHEMA = 'belajar_typescript'"}
+{"level":"debug","message":"Executing (default): SHOW INDEX FROM `authors`"}
+{"level":"info","message":"DB sync with status: true"}
+{"level":"debug","message":"Logging initialized at debug level"}
+{"level":"debug","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'authors' AND TABLE_SCHEMA = 'belajar_typescript'"}
+{"level":"debug","message":"Executing (default): SHOW INDEX FROM `authors`"}
+{"level":"info","message":"DB sync with status: true"}
+{"level":"debug","message":"Logging initialized at debug level"}
+{"level":"debug","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'authors' AND TABLE_SCHEMA = 'belajar_typescript'"}
+{"level":"debug","message":"Executing (default): SHOW INDEX FROM `authors`"}
+{"level":"info","message":"DB sync with status: true"}
+{"level":"debug","message":"Executing (default): INSERT INTO `authors` (`id`,`name`) VALUES (DEFAULT,?);"}
+{"level":"debug","message":"Logging initialized at debug level"}
+{"level":"debug","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'authors' AND TABLE_SCHEMA = 'belajar_typescript'"}
+{"level":"debug","message":"Executing (default): SHOW INDEX FROM `authors`"}
+{"level":"info","message":"DB sync with status: true"}
+{"level":"debug","message":"Logging initialized at debug level"}
+{"level":"debug","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'authors' AND TABLE_SCHEMA = 'belajar_typescript'"}
+{"level":"debug","message":"Executing (default): SHOW INDEX FROM `authors`"}
+{"level":"info","message":"DB sync with status: true"}
+{"level":"debug","message":"Logging initialized at debug level"}
+{"level":"debug","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'authors' AND TABLE_SCHEMA = 'belajar_typescript'"}
+{"level":"debug","message":"Executing (default): SHOW INDEX FROM `authors`"}
+{"level":"info","message":"DB sync with status: true"}
+{"level":"debug","message":"Logging initialized at debug level"}
+{"level":"debug","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'authors' AND TABLE_SCHEMA = 'belajar_typescript'"}
+{"level":"debug","message":"Executing (default): SHOW INDEX FROM `authors`"}
+{"level":"info","message":"DB sync with status: true"}
+{"level":"debug","message":"Logging initialized at debug level"}
+{"level":"debug","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'authors' AND TABLE_SCHEMA = 'belajar_typescript'"}
+{"level":"debug","message":"Executing (default): SHOW INDEX FROM `authors`"}
+{"level":"info","message":"DB sync with status: true"}
+{"level":"debug","message":"Logging initialized at debug level"}
+{"level":"debug","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'authors' AND TABLE_SCHEMA = 'belajar_typescript'"}
+{"level":"debug","message":"Executing (default): SHOW INDEX FROM `authors`"}
+{"level":"info","message":"DB sync with status: true"}
+{"level":"debug","message":"Logging initialized at debug level"}
+{"level":"debug","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'authors' AND TABLE_SCHEMA = 'belajar_typescript'"}
+{"level":"debug","message":"Executing (default): SHOW INDEX FROM `authors`"}
+{"level":"info","message":"DB sync with status: true"}
+{"level":"debug","message":"Logging initialized at debug level"}
+{"level":"debug","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'authors' AND TABLE_SCHEMA = 'belajar_typescript'"}
+{"level":"debug","message":"Executing (default): SHOW INDEX FROM `authors`"}
+{"level":"info","message":"DB sync with status: true"}
+{"level":"debug","message":"Executing (default): SELECT `id`, `name` FROM `authors` AS `Author` WHERE `Author`.`id` = '3';"}
+{"level":"debug","message":"Executing (default): UPDATE `authors` SET `name`=? WHERE `id` = ?"}
+{"level":"debug","message":"Executing (default): SELECT `id`, `name` FROM `authors` AS `Author` WHERE `Author`.`id` = '3';"}
+{"level":"debug","message":"Executing (default): DELETE FROM `authors` WHERE `id` = 3"}
